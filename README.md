@@ -1,12 +1,12 @@
-# 🔥 SDN-Based Firewall using Mininet
+# SDN-Based Firewall using Mininet
 
-## 📌 Objective
+## Objective
 
 To develop a controller-based firewall to block or allow traffic between hosts using SDN principles.
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 
 * Mininet
 * Open vSwitch
@@ -14,7 +14,7 @@ To develop a controller-based firewall to block or allow traffic between hosts u
 
 ---
 
-## ⚙️ Steps Performed
+##  Steps Performed
 
 1. Created network topology using Mininet
 2. Verified connectivity using `pingall`
@@ -24,7 +24,7 @@ To develop a controller-based firewall to block or allow traffic between hosts u
 
 ---
 
-## 💻 Commands Used
+## Commands Used
 
 ```
 sudo mn --topo single,3
@@ -37,37 +37,38 @@ sudo ovs-ofctl -O OpenFlow13 add-flow s1 "priority=0,actions=normal"
 
 ---
 
-## 📊 Results
+##  Results
 
-* ❌ h1 → h2 blocked
-* ✅ h1 → h3 allowed
+* h1 → h2 blocked
+* h1 → h3 allowed
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
-### 🔹 Topology
+###  Topology
 
-/home/nanditha/sdn-firewall/images/Pasted image (2).png
+<img width="1574" height="75" alt="Pasted image (2)" src="https://github.com/user-attachments/assets/b6201497-3377-4353-a12c-d8259eec72d1" />
 
-### 🔹 Pingall Before Firewall
+
+### Pingall Before Firewall
 
 /home/nanditha/sdn-firewall/images/Pasted image (3).png
 
-### 🔹 Firewall Rule Applied
+###  Firewall Rule Applied
 
 /home/nanditha/sdn-firewall/images/Pasted image (4).png
 
-### 🔹 Blocked Traffic (h1 → h2)
+### Blocked Traffic (h1 → h2)
 
 /home/nanditha/sdn-firewall/images/Pasted image (5).png
 
-### 🔹 Allowed Traffic (h1 → h3)
+### Allowed Traffic (h1 → h3)
 
 /home/nanditha/sdn-firewall/images/Pasted image.png
 
 ---
 
-## 🧠 Conclusion
+## Conclusion
 
 A firewall was successfully implemented using OpenFlow rules in Mininet. Traffic from h1 to h2 was blocked while allowing communication with other hosts, demonstrating effective SDN-based traffic control.
