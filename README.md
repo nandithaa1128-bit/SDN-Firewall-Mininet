@@ -48,24 +48,29 @@ sudo ovs-ofctl -O OpenFlow13 add-flow s1 "priority=0,actions=normal"
 
 ###  Topology
 
-<img width="1574" height="75" alt="Pasted image (2)" src="https://github.com/user-attachments/assets/b6201497-3377-4353-a12c-d8259eec72d1" />
+<img width="653" height="421" alt="Screenshot from 2026-04-16 17-49-43" src="https://github.com/user-attachments/assets/c31a5660-aada-497b-b694-c84a75af9007" />
+
 
 
 ### Pingall Before Firewall
 
-/home/nanditha/sdn-firewall/images/Pasted image (3).png
+<img width="665" height="387" alt="Pasted image" src="https://github.com/user-attachments/assets/fcf46d16-d8e9-4bd4-bf4e-e421d826f586" />
+
 
 ###  Firewall Rule Applied
 
-/home/nanditha/sdn-firewall/images/Pasted image (4).png
+<img width="1574" height="75" alt="Pasted image (2)" src="https://github.com/user-attachments/assets/670d1408-e829-4294-8de9-647ec573a88b" />
+
 
 ### Blocked Traffic (h1 → h2)
 
-/home/nanditha/sdn-firewall/images/Pasted image (5).png
+<img width="713" height="306" alt="Pasted image (3)" src="https://github.com/user-attachments/assets/274fd99d-d2c6-415a-9834-16829a6cb79d" />
+
 
 ### Allowed Traffic (h1 → h3)
 
-/home/nanditha/sdn-firewall/images/Pasted image.png
+<img width="1016" height="33" alt="Pasted image (4)" src="https://github.com/user-attachments/assets/b27999ec-8c4a-4413-8432-d60f04cb7bcb" />
+
 
 ---
 
