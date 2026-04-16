@@ -70,6 +70,7 @@ sudo ovs-ofctl -O OpenFlow13 add-flow s1 "priority=0,actions=normal"
 ### Allowed Traffic (h1 → h3)
 
 <img width="1016" height="33" alt="Pasted image (4)" src="https://github.com/user-attachments/assets/b27999ec-8c4a-4413-8432-d60f04cb7bcb" />
+<img width="689" height="332" alt="Pasted image (5)" src="https://github.com/user-attachments/assets/38322000-9aa4-4352-95af-a593d3b181fd" />
 
 
 ---
